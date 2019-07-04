@@ -1,5 +1,7 @@
 class Project < ApplicationRecord
-
+	def getvalue
+		'777'
+	end
 end
 
 class VideoCheck

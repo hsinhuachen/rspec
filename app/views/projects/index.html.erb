@@ -1,0 +1,10 @@
+<div class="container">
+	<h1>Projects</h1>
+
+	<% 
+		videourl = "https://www.youtube.com/watch?v=IeCTXHTN9I4"
+
+		video = VideoCheck.new
+		concat content_tag :p, video.get_video_iframe(videourl)
+	%>
+</div>
